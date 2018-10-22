@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "doorcam-220223",
+  "private_key_id": "ca2aab2790efa1cccffb1046f3869d7c3b39d204",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCtbiiko6YOzpT+\nfsjr31abijXRQNJKrPARYmPgOFGsjDxZTXPu5aXwCa7xKDwmmcGVByqZxlhEpblf\n9tCILy+PLy/7/Vo07c7TzGt0zhrCJacexjnCIQiL20AAmGjokHPYcXWwwmoZ+M0V\nxvibD93KJurgfzhlPffzikTNGUp4ElY7gGKuKMHdfWOrBk43I1KFsr6FwrOhKqZf\nsJwq4UpvEIc860H0wSIKc9yLV3MxSJJ4axdqvcBDIlnHqUyDFmMWjNLveVsmS66M\nQXpTf/I0nA85I9C7fjYXf9FAc4eKz3hYCcq/z+1VtP83uG3M2XpdLlz8VRaATz4P\nXI7LcUszAgMBAAECggEAKqIWVqauBxzMbqVfIfC0mybGJQsAxv+tQjDEKZXeqgKN\nQUyzb6o/ePsAaOMBqmGIv2hUFho2j6WHpOoJCDlFQTcR3inBN5qwCcvKLJwP4uMb\nqoqDH1A8iBjdKmhM/cKo36/AhTO9nmXVkIFpksC7PlsDyS0tAWJS5ij60cpiTpKW\n7Yi8lOWTKbyCwGx2Zht4Xiu/7OGnz72f9BooMSSz2K0beU39eoJCMExEhQ9WqNtu\nrvFsqMlJMo9qof1IhYezI2z0HO6Q0QJu4RMgyhsnEyL/Erdn5Mky7XPuMwGDr+dy\nHaBBUs2QGN5bbVr5rG00t6pnqjw5TfJgBJhEFqNwoQKBgQDv30jKQw//24CZ2STI\nbClGHsgUUoz3aiQc086BMxKegKNeSXdqXMBR4WW/oTKFxZRj6RBSdGj0j8O4fnRr\nyZeKOb1PBaArrzFIvqDKjY5tEqXkX381q+OIJP19+GaCMUistw61iiVlKHJKj4se\n5zlkIvPx80Ev+4ftzQG8CKDM0wKBgQC5F0RIK6DnlVG0wiNj/DkFnVjMdx2aUJH0\nkE6RTEgW18qdutobfCLGgZKPpyk+/4mSThuCNjwaPZ77hTGQhX/CFPUWUfdppW9l\nfDzXo1399SRZXZJ7KolnQ9h62WVJyEugsz2hzkMYjH/i7Q4LLJvp0PQK9/tJK63V\ng+/zUE8MIQKBgD0mO8UsMXD1QSR3QbRCNodko3bi0ILmMQyURkmTfoSfoIYRznpz\n6Kc3AZxHeLy3cKvDp2CNwo/N8oQe4Ij13Eblj0gM1Bcu0y6LQixAx/UwUtAUNDa3\negqj+2dYorE/5Rn6lKpc7EmMdQ5i54FaSrwnWO7uJ0kXI0DRCUcpH+z3AoGAQap6\nhCxOWrsEEOArlCaAyHgpb+j2rK/XCHBGH5Bzpv8KGGmZRdUFtW105NhGbt5UHX7u\njYTWT+z6wXtguUhTqjSrOy77WxThb5zjLRH9n8LgEYB8HoxZ0TQl0nfcUo/oHOxa\nelRmQ4hdOtIlgFtkOVDztAyEr1H6y1ySvb0JPmECgYByxMpx3ddIpG+CfBM6EBmx\nhArPnJ1SOHbm3xFmeHugCR+CIv2m4crpFxKltOZ36ofrvZtlZ2HLn+2uenzSTveB\nwWYmxRP9s+t6hDtHaMrXLDdaeu5zwqDlFSAmklMkd/NSPaVCU1rmSe96zpI3CgUS\nANzRtQLem79cjTzRcDBc5w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "door-86@doorcam-220223.iam.gserviceaccount.com",
+  "client_id": "105833512931601700174",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/door-86%40doorcam-220223.iam.gserviceaccount.com"
+}

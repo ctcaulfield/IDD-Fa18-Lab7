@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FAR-Lab/distant-pictures#readme",
   "dependencies": {
+    "@google-cloud/storage": "^2.1.0",
     "@google-cloud/vision": "^0.22.1",
     "express": "^4.16.2",
     "node-webcam": "^0.4.3",
