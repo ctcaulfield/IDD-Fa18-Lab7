@@ -27,10 +27,22 @@ function ledOFF() {
 //-- Addition: Forward the `Take a picture` button-press to the webserver.
 function takePicture(){
   socket.emit('takePicture');
-  
+
 }
 
 //-- Addition: This function receives the new image name and applies it to html element.
+
+socket.on('facesResult', function(msg) {
+  if(msg === 0){
+    document.getElementById("people").innerHTML = "LOL...not - good try";
+  }
+  else if(msg === 1){
+    document.getElementById("people").innerHTML = "Welcome!";
+  }
+  else {
+    document.getElementById("people").innerHTML = "A squad of " + msg + "no thx"
+  }
+});
 
 socket.on('newPicture', function(msg) {
   document.getElementById('pictureContainer').src=msg;

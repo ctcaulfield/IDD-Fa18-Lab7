@@ -134,6 +134,7 @@ io.on('connect', function(socket) {
       const numFaces = faces.length;
       //test//
       console.log('Found ' + numFaces + (numFaces === 1 ? ' face' : ' faces'));
+      io.emit('facesResult',(numFaces));
       callback(null, faces);
     }).catch(err => {
       console.error('ERROR:', err);
