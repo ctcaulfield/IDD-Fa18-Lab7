@@ -29,13 +29,11 @@ var Readline = SerialPort.parsers.Readline; // read serial data as lines
 //-- Addition:
 var NodeWebcam = require( "node-webcam" );// load the webcam module
 
-// Imports the Google Cloud client library.
-const {Storage} = require('@google-cloud/storage');
+//Google Vision
+const vision = require('@google-cloud/vision');
 
-// Instantiates a client. If you don't specify credentials when constructing
-// the client, the client library will look for credentials in the
-// environment.
-const storage = new Storage();
+// Creates a client
+const client = new vision.ImageAnnotatorClient();
 
 // Makes an authenticated API request.
 storage.getBuckets().then((results) => {
