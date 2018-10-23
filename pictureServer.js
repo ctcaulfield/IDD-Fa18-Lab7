@@ -35,17 +35,6 @@ const vision = require('@google-cloud/vision');
 // Creates a client
 const client = new vision.ImageAnnotatorClient();
 
-// Makes an authenticated API request.
-storage.getBuckets().then((results) => {
-  const buckets = results[0];
-  console.log('Buckets:');
-  buckets.forEach((bucket) => {
-    console.log(bucket.name);
-  });
-}).catch((err) => {
-  console.error('ERROR:', err);
-});
-
 //---------------------- WEBAPP SERVER SETUP ---------------------------------//
 // use express to create the simple webapp
 app.use(express.static('public')); // find pages in public directory
