@@ -132,6 +132,7 @@ io.on('connect', function(socket) {
     client.faceDetection('public/'+imageName+'.jpg').then(results => {
       const faces = results[0].faceAnnotations;
       const numFaces = faces.length;
+      //test//
       console.log('Found ' + numFaces + (numFaces === 1 ? ' face' : ' faces'));
       callback(null, faces);
     }).catch(err => {
